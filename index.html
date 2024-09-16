@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Math Speed Test</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+    <style>
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <h1>MATH SPEED TEST</h1>
+    </div>
+    <div id="speed" class="">
+        <h2>Have you even wondered this: What is my math animal? If so, do this math speed test to find out now! If not, also do this math test to waste your time!</h2>
+        <ul style="list-style-type: none;">
+            <li>
+                <h4>Snail: 1 calculation per minute.</h4>
+                <p>Slow and steady, takes its time to solve problems.</p>
+                <img class="animal-img" src="images/snail.jpeg" alt="Snail">
+            </li>
+            <li>
+                <h4>Turtle: 2 calculations per minute.</h4>
+                <p>Slightly faster, but still methodical.</p>
+                <img class="animal-img" src="images/th.jpeg" alt="Turtle">
+            </li>
+            <li>
+                <h4>Cat: 5 calculations per minute.</h4>
+                <p>Quick and agile, but can get distracted.</p>
+                <img class="animal-img" src="images/cat.jpeg" alt="Cat">
+            </li>
+            <li>
+                <h4>Dog: 10 calculations per minute.</h4>
+                <p>Loyal and hardworking, maintains a good pace.</p>
+                <img class="animal-img" src="images/dog.jpeg" alt="Dog">
+            </li>
+            <li>
+                <h4>Horse: 20 calculations per minute.</h4>
+                <p>Strong and fast, covers a lot of ground quickly.</p>
+                <img class="animal-img" src="images/MA_00600259_vpf1m0.webp" alt="Horse">
+            </li>
+            <li>
+                <h4>Cheetah: 50 calculations per minute.</h4>
+                <p>The fastest land animal, incredibly quick at solving problems.</p>
+                <img class="animal-img" src="images/cheetah.jpeg" alt="Cheetah">
+            </li>
+            <li>
+                <h4>Eagle: 100 calculations per minute.</h4>
+                <p>Sharp and precise, with excellent focus.</p>
+                <img class="animal-img" src="images/eagle.jpeg" alt="Eagle">
+            </li>
+            <li>
+                <h4>Dolphin: 200 calculations per minute.</h4>
+                <p>Highly intelligent and efficient.</p>
+                <img class="animal-img" src="images/dolphin.jpeg" alt="Dolphin">
+            </li>
+        </ul>
+    </div>
+    <div id="question" class="hidden">
+        <h2 id="question-text"></h2>
+        <h3 id="timer">i</h3>
+        <input type="text" id="answer" placeholder="Your answer">
+        <button onclick="submitAnswer()">Submit</button>
+    </div>
+    <div id="result" class="hidden">
+        <h2 id="score">i</h2>
+        <h3 id="animal-type">i</h3>
+        <button onclick="backToHomePage()">Back To Homepage</button>
+    </div>
+    <div id="start">
+        <button id="startButton" onclick="startTest()">Start Test</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,84 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+#main {
+    text-align: center;
+    padding: 2em;
+    background: linear-gradient(135deg, #4CAF50, #81C784);
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+li {
+    list-style-type: none;
+    margin: 1.5em 0;
+    padding: 1em;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+    background-color: #fff;
+    transition: transform 0.2s;
+}
+
+li:hover {
+    transform: scale(1.02);
+}
+
+h4 {
+    margin: 0;
+    padding: 0;
+    color: #4CAF50;
+    font-size: 1em;
+}
+
+.animal-img {
+    width: auto;
+    height: 3em;
+    object-fit: cover;
+    float: left;
+    vertical-align: middle;
+    margin: 0.625em 0.625em 0.625em 0;
+    border: 0.125em solid #4CAF50;
+    border-radius: 0.5em;
+}
+
+p {
+    display: inline-block;
+    padding: 1em 0em;
+    font-size: 0.75em;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em 1.5em;
+    border: none;
+    border-radius: 0.5em;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s;
+    display: block;
+    margin: 2em auto 0em auto;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 0.625em;
+    font-size: 1.1em;
+    border: 0.125em solid #ddd;
+    border-radius: 0.5em;
+    box-sizing: border-box;
+    margin: 1em 0;
+}
+
+#speed {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 1.5em;
+    font-weight: bold;
+}
+
